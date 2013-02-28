@@ -6,24 +6,12 @@
          version="2.5">
 
     <servlet>
-        <servlet-name>guestbook</servlet-name>
-        <servlet-class>guestbook.GuestbookServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>sign</servlet-name>
-        <servlet-class>guestbook.SignGuestbookServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>Upload</servlet-name>
         <servlet-class>blobstore.Upload</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Serve</servlet-name>
         <servlet-class>blobstore.Serve</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>GetAllTipsServlet</servlet-name>
-        <servlet-class>tips.GetAllTipsServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CsvServletVersion1</servlet-name>
@@ -41,17 +29,9 @@
         <servlet-name>AddTipServlet</servlet-name>
         <url-pattern>/addTip</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>sign</servlet-name>
-        <url-pattern>/sign</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>guestbook</servlet-name>
-        <url-pattern>/guestbook</url-pattern>
-    </servlet-mapping>
     <welcome-file-list>
         <!--<welcome-file>guestbook.jsp</welcome-file>-->
-        <welcome-file>blobstore.jsp</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
     <servlet-mapping>
