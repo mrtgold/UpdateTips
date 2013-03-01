@@ -37,7 +37,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>AddTipServlet</servlet-name>
-        <url-pattern>/addTip</url-pattern>
+        <url-pattern>/secured/addTip</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <!--<welcome-file>guestbook.jsp</welcome-file>-->

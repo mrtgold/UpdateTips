@@ -68,7 +68,7 @@ public class AddTipServlet extends HttpServlet {
         DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
         datastore.put(greeting);
 
-        response.sendRedirect("/manageTips.jsp");
+        response.sendRedirect("manageTips.jsp");
     }
 
 //    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

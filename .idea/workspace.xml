@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tips/AddTipServlet.java" afterPath="$PROJECT_DIR$/src/tips/AddTipServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Tim.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Tim.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/secured/manageTips.jsp" afterPath="$PROJECT_DIR$/web/secured/manageTips.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,15 +15,15 @@
     <file path="/SignGuestbookServlet.java" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1359873206685" ignored="false" />
     <file path="/a.dummy" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360643062954" ignored="false" />
     <file path="/guestbook.jsp" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1359920462468" ignored="false" />
-    <file path="/web.xml" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1362023686172" ignored="false" />
+    <file path="/web.xml" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1362114923479" ignored="false" />
     <file path="/getAllTips.jsp" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360323516624" ignored="false" />
     <file path="/fragment.java" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360323873302" ignored="false" />
     <file path="/CsvServlet.java" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360643304561" ignored="false" />
     <file path="/GetAllTipsServlet.java" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360643151680" ignored="false" />
     <file path="/manageTips.jsp" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360761382615" ignored="false" />
     <file path="/AddTipServlet.java" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360760881374" ignored="false" />
-    <file path="/appengine-web.xml" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1360534749548" ignored="false" />
-    <file path="/Dummy.txt" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1362023811784" ignored="false" />
+    <file path="/appengine-web.xml" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1362114325124" ignored="false" />
+    <file path="/Dummy.txt" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1362023829786" ignored="false" />
     <file path="/index.jsp" changelist="ebc95f15-1ba8-4ca2-8295-1ce9fcbfea06" time="1362023622496" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,61 +88,53 @@
     <favorites_list name="Oily Tips Update" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="manageTips.jsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/secured/manageTips.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="0" selection-start="961" selection-end="1032" vertical-scroll-proportion="-15.038462">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-              <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="33" selection-start="529" selection-end="529" vertical-scroll-proportion="0.5714286">
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-                <state />
-              </provider>
-              <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="appengine-web.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/index.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="13" selection-start="1090" selection-end="1090" vertical-scroll-proportion="1.5758427">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="manageTips.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/secured/manageTips.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="9" selection-start="4416" selection-end="4416" vertical-scroll-proportion="-12.307693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTipServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tips/AddTipServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="31" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="30" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-9.52">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appengine-web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="18" selection-start="367" selection-end="367" vertical-scroll-proportion="0.47341773">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -158,22 +152,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/src/guestbook/FileUpload.java" />
         <option value="$PROJECT_DIR$/src/guestbook/Upload.java" />
         <option value="$PROJECT_DIR$/src/guestbook/Serve.java" />
         <option value="$PROJECT_DIR$/web/blobstore.jsp" />
         <option value="$PROJECT_DIR$/web/csv.jsp" />
         <option value="$PROJECT_DIR$/web/getAllTips.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/src/tips/CsvServlet.java" />
         <option value="$PROJECT_DIR$/src/tips/CsvServletV1.java" />
         <option value="$PROJECT_DIR$/src/tips/GetAllTipsServlet.java" />
-        <option value="$PROJECT_DIR$/src/tips/AddTipServlet.java" />
         <option value="$PROJECT_DIR$/src/tips/CsvServletVersion1.java" />
         <option value="$PROJECT_DIR$/web/manageTips.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/secured/manageTips.jsp" />
+        <option value="$PROJECT_DIR$/src/tips/AddTipServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
       </list>
     </option>
   </component>
@@ -274,6 +268,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oily Tips Update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OilyTipsUpdate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="secured" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -316,7 +328,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -462,23 +474,23 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67942584" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18979266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18979266" sideWeight="0.49675852" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20664506" sideWeight="0.35725677" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20664506" sideWeight="0.19457735" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20664506" sideWeight="0.23604466" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20664506" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32055214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31897926" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -594,33 +606,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tips/AddTipServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="2" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tips/CsvServletVersion1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="46" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/secured/manageTips.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="961" selection-end="1032" vertical-scroll-proportion="-15.038462">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +627,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="529" selection-end="529" vertical-scroll-proportion="0.5714286">
+        <state line="39" column="30" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-9.52">
           <folding />
         </state>
       </provider>
@@ -645,6 +636,27 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/secured/manageTips.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="9" selection-start="4416" selection-end="4416" vertical-scroll-proportion="-12.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tips/AddTipServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="31" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="367" selection-end="367" vertical-scroll-proportion="0.47341773">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

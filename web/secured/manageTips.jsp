@@ -102,7 +102,7 @@
     pageContext.setAttribute("tip_ref_url",GetAllTipsServlet.TIP_REF_URL);
     pageContext.setAttribute("tips_store_name_param",GetAllTipsServlet.TIPS_STORE_NAME_PARAMETER);
 %>
-<form action="/addTip" method="post">
+<form action="addTip" method="post">
     <div>Tip text:
         <textarea name="${tip_text}" rows="3" cols="60"></textarea></div>
     <div>Tip icon Url:
@@ -112,6 +112,6 @@
     <div><input type="submit" value="Post Tip"/></div>
     <input type="hidden" name="${tips_store_name_param}" value="${fn:escapeXml(tip_store_name)}"/>
 </form>
-<a href="./csv1">Download CSV file</a>
+<a href="/csv1">Download CSV file</a>
 </body>
 </html>
